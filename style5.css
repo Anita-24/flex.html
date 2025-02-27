@@ -1,0 +1,123 @@
+.parent{
+    width:auto;
+
+    display: flex;
+    
+    }
+.child0{
+        border: 2px solid white;
+        flex: 1;
+        flex-direction: row;
+        display: flex;
+        align-content: baseline;
+        justify-content: center;
+        background-color: white;
+        
+        
+        padding: 10px;
+        
+    }
+    .child00{
+        border: 2px solid white;
+        flex: 1;
+        flex-direction: row;
+        display: flex;
+        align-content: baseline;
+        justify-content: center;
+        background-color: white;
+        
+        
+        padding: 10px;
+        
+    }   
+    .child1{
+        border: 2px solid white;
+        flex: 1;
+        flex-direction: row;
+        display: flex;
+        align-content: baseline;
+        justify-content: center;
+        background-color: white;
+        
+        
+        padding: 10px;
+        
+    }
+.child11{
+    border: 2px solid white;
+    flex: 1;
+    flex-direction: row;
+    display: flex;
+    align-content: baseline;
+    justify-content: center;
+    background-color: white;
+    
+    
+    padding: 10px;
+    
+}
+
+.child2{
+    border: 2px solid white;
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    align-content: baseline;
+    justify-content: center;
+    background-color: white;
+    
+    align-content: center;
+    padding: 0px;
+}
+
+
+.one{
+
+    flex-direction: column;
+    flex: 1;
+    
+    background-color: white;
+    margin: 2px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.two{
+
+    flex-direction: column;
+    flex: 1;
+    background-color: white;
+   
+    margin: 2px;
+    padding:  10px;
+    align-items: center;
+}
+.three{
+
+    flex-direction: column;
+    flex: 1;
+    
+    background-color: white;
+    margin: 2px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.four{
+
+    flex-direction: column;
+    flex: 1;
+    background-color: white;
+   
+    margin: 2px;
+    padding: 10px;
+    align-items: center;
+}
+
+
+
+
+
+
+
+

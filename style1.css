@@ -1,0 +1,129 @@
+body{
+    color: #fff;
+    align-content: center;
+    border: 8px solid grey;
+    width: 830px;
+
+
+    /* font-family: ; */
+}
+.parent{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 600px;
+    width: 800px;
+    border: 2px solid white;
+    padding: 10px;
+    /* gap: 10px; */
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.child1{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    border: 0px solid white;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(251, 186,65);
+    font-size: 20px;
+}
+.child2{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    border: 0px solid white;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: rgb(210, 209,204);
+    color: rgb(250, 179, 47);
+    align-content: center;
+
+}
+.child3{
+    display: flex;
+    flex: 6;
+    flex-direction: row;
+    border: 0px solid white;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px;
+    background-color: #ababab;
+    font-size: 15px;
+    color: black;
+}
+.child4{
+    display: flex;
+    flex: 0.4;
+    flex-direction: row;
+    border: 0px solid white;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(251, 186,65);
+    color: white;
+    font-size: larger;
+    
+
+}
+.one{
+
+flex-direction: row;
+flex: 1;
+border: 1px solid #0c0c0c;
+background-color: white;
+margin: 2px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+
+}
+
+.two{
+
+    flex-direction: row;
+    flex: 1;
+    border: 2px solid #fff;
+    background-color: #fff;
+    margin: 2px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.three{
+
+    flex-direction: row;
+    flex: 1;
+    border: 2px solid #fff;
+    background-color: #fff;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.four{
+
+    flex-direction: row;
+    flex: 4;
+    border: 2px solid #fff;
+    background-color: #fff;
+    padding: 6px;
+    margin: 3px;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    padding: 10px 10px;
+    margin: 10px;
+    justify-content: center;
+}
+.button1{
+    padding: 10px 10px;
+    margin: 10px;
+    justify-content: center;
+}
+.button2{
+    padding: 10px 30px;
+    margin: 10px;
+    justify-content: center;
+}
